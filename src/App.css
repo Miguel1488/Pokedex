@@ -1,7 +1,52 @@
 * {
   padding: 0;
-  border: 0;
+  text-align: center;
   box-sizing: border-box;
+
+}
+
+/* este es el home del input */
+.title {
+  color: #FE1936;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  padding: 0px;
+}
+
+.phrase {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.input {
+
+  width: 622px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  font-size: 23px;
+
+}
+
+.button-input {
+  position: absolute;
+  width: 209.21px;
+  height: 68px;
+  color: aliceblue;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #D93F3F;
+}
+
+
+
+.App {
+  padding: 100px;
 }
 
 .containerHeader {
@@ -10,33 +55,14 @@
 }
 
 
-.container {
-  position: absolute;
-
-  height: 49.7px;
-
-  top: 85px;
-
-  background: #0C0C0C;
+.col {
+  width: 100%;
+  padding: 10px;
 }
 
-
-.conainerimag {
-  border: 2px solid;
-  gap: 20px;
-  background: rebeccapurple;
-  display: grid;
-  grid-template-columns: 200px 200px 400px;
-  grid-template-rows: auto 100px;
-  gap: 1em;
-}
-
-.Cotainer_Pokemon div {
-  background: white;
-
-}
-
-.imag {
-  align-items: center;
-  background-color: #000;
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }

@@ -16,14 +16,16 @@ const clickButton =() => {
 }
 
     return (
-        <div>
-            <h1> Input name</h1>
-            <input
+        <div className='contenedor-input'>
+            <h1 className='title'>¡Hola entrenador!</h1>
+            <div className='phrase'><p>Para poder comenzar, dame tu nombre</p></div>
+            <input className='input'
                 type="text"
+                placeholder="Tu nombre..."
                 value={inputValue}
                 onChange={e => setInputValue(e.target.value)}
             />
-            <button onClick={clickButton}>Submit</button>
+            <button className='button-input' onClick={clickButton}>Submit</button>
         </div>
     );
 };

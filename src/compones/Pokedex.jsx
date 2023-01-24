@@ -73,7 +73,7 @@ const Pokedex = () => {
                             key={pokedex.url}
                         />
                     ))
-                }
+                   }
             </ul>
         </div>
     );

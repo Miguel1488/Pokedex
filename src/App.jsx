@@ -11,15 +11,16 @@ function App() {
 
 
   return (
- 
-    
-  
+
+
+
     <HashRouter>
-     <Header/>
-      <div className="App">
-     
+      
+        <Header />
+        <div className="App">
+
         <Routes>
-        <Route className path="/" element={<InputName />} />
+          <Route className path="/" element={<InputName />} />
 
           <Route element={<ProtectedRoutes />}>
             <Route path="/pokedex" element={<Pokedex />} />
