@@ -21,11 +21,15 @@ const PokedexDetail = () => {
 
 
     return (
-        <div>
-            <h1>{pokemon.name}</h1>
-            <div>id:<b>{id}</b></div>
+     
+        <div className='containerDetail'>
+            <div className='id'>#<b>{id}</b></div>
+            <div className='titleDetail'><h1>{pokemon.name}</h1></div>
+            <div className='imagDetail'>
             <img src={pokemon.sprites?.other.dream_world.front_default} alt="" />
+            </div>
         </div>
+       
     );
 };
 

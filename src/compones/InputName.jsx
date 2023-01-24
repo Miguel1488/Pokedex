@@ -16,7 +16,8 @@ const clickButton =() => {
 }
 
     return (
-        <div className='contenedor-input'>
+        <div>
+            <div><img src="./src/assets/imag/image 11.png" alt=""></img></div>
             <h1 className='title'>¡Hola entrenador!</h1>
             <div className='phrase'><p>Para poder comenzar, dame tu nombre</p></div>
             <input className='input'
@@ -26,7 +27,9 @@ const clickButton =() => {
                 onChange={e => setInputValue(e.target.value)}
             />
             <button className='button-input' onClick={clickButton}>Submit</button>
+            <footer  className='contenedor-input'></footer>
         </div>
+        
     );
 };
 

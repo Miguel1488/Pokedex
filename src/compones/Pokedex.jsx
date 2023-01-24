@@ -46,16 +46,16 @@ const Pokedex = () => {
             <h1>pokedex</h1>
             <p>welcom {userName}!</p>
             <div>
-                <input
+                <input className='inputPokede'
                     type="text"
                     placeholder='search Pokemon'
                     value={inputSearch}
                     onChange={e => setInputSearch(e.target.value)}
                 />
-                <button onClick={search}>Search</button>
+                <button className='butoonPokedex' onClick={search}>Search</button>
             </div>
             <div>
-                <select onChange={filterType} name="" id="">
+                <select className='typepokedex' onChange={filterType} name="" id="">
                     {type.map(type => (
                         <option value={type.url} key={type.url}>{type.name}
                         </option>
