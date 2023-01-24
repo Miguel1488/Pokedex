@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.containerHeader {
+  background: red;
+  border-bottom: 30px solid #000;
+}
+
+.title {
+  width: 431px;
+  height: 76px;
+  left: 133px;
+  top: 47px;
+
+}
+
+.container {
+  position: absolute;
+
+  height: 49.7px;
+
+  top: 85px;
+
+  background: #0C0C0C;
+}
+
+
+.conainerimag {
+  border: 2px solid;
+  gap: 20px;
+  background: rebeccapurple;
+  display: grid;
+  grid-template-columns: 200px 200px 400px;
+  grid-template-rows: auto 100px;
+  gap: 1em;
+}
+
+.Cotainer_Pokemon div {
+  background: white;
+
+}
+
+.imag {
+  align-items: center;
+  background-color: #000;
+}
