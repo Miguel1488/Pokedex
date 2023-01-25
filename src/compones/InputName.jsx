@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { pokedexName } from '../store/slices/userName.slice';
-import pokeImgHe from "./src/assets/imag/image 11.png"
+import pokeImgHe from "../assets/imag/image 11.png"
 
 const InputName = () => {
 
