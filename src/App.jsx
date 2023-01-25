@@ -14,8 +14,7 @@ function App() {
 const[loading,setLoading]= useState(true);
 setTimeout (( ) => { 
   setLoading(false)
- }, 2000
-)
+ }, 2000)
 
   return (
 

@@ -13,6 +13,7 @@ const Pokedex = () => {
   const [pokedex, setpokedex] = useState([]);
   const [inputSearch, setInputSearch] = useState("");
   const [type, setType] = useState([]);
+ 
 
   const navigate = useNavigate();
 
