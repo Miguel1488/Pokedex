@@ -71,9 +71,9 @@
   padding: 0px;
 }
 
-.containerGeneral2{
-text-align: center;
-padding: 10px;
+.containerGeneral2 {
+  text-align: center;
+  padding: 10px;
 
 }
 
@@ -98,21 +98,23 @@ padding: 10px;
   background: #D93F3F;
 }
 
-.Containergeneralpokedex{
+.Containergeneralpokedex {
   background: #D93F3F;
   border: 52px;
-  
+
 }
-.buttonback{
-align-items: center;
-text-align: center;
-justify-content: center;
-height: 52px;
-padding: 45px;
+
+.buttonback {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 52px;
+  padding: 45px;
 }
-.general1{
-background: #7EC6C5;
- 
+
+.general1 {
+  background: #7EC6C5;
+
 }
 
 
@@ -128,7 +130,7 @@ background: #7EC6C5;
 
 .ulpokedex {
   text-align: center;
-list-style: none;
+  list-style: none;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +174,7 @@ list-style: none;
 
 .containerDetail {
   justify-items: center;
-align-items: center;
+  align-items: center;
   position: absolute;
   width: 1116px;
   height: 980px;
@@ -185,7 +187,7 @@ align-items: center;
 }
 
 .id {
-text-align: center;
+  text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -197,7 +199,7 @@ text-align: center;
 }
 
 .titleDetail {
-text-align: center;
+  text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -208,22 +210,22 @@ text-align: center;
 
 }
 
-.imagcontainer{
+.imagcontainer {
   width: 50%;
   margin: 0 auto;
 }
 
 .imagDetail {
-text-align: center;
+  text-align: center;
 
 
 }
 
-.weigth{
+.weigth {
   font-size: 35px;
   padding: 34px;
   text-align: center;
-  
+
 }
 
 
@@ -270,7 +272,7 @@ text-align: center;
   border-radius: 3px;
   cursor: pointer;
   background: #D93F3F;
- 
+
 }
 
 
@@ -293,49 +295,50 @@ text-align: center;
 
 }
 
-.butonprogres{
-text-align: center;
-justify-content: center;
-border-radius:50%;
+.butonprogres {
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
 
 
 
 }
 
-.butonback{
-background: #D93F3F;
-font-size: 2rem;
-padding: 15px;
-border-radius: 5px;
-
-}
-
-.butoninit{
+.butonback {
+  background: #D93F3F;
   font-size: 2rem;
   padding: 15px;
-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+.butoninit {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 
-.containerbuttonFooter{
+.containerbuttonFooter {
   text-align: center;
   justify-content: center;
   align-items: center;
 
 }
-.pagination_numbers{
+
+.pagination_numbers {
   font-size: 30px;
   background: #D93F3F;
   color: #FFFFFF;
 }
 
-.btn-back{
+.btn-back {
   font-size: 30px;
   background: #D93F3F;
   color: #FFFFFF;
 }
 
-.btn-next{
+.btn-next {
   font-size: 30px;
   background: #D93F3F;
   color: #FFFFFF;
