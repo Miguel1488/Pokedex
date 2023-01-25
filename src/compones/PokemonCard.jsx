@@ -24,9 +24,9 @@ const PokemonCard = ({ url }) => {
                 <b >{pokedex.name}</b>
                 <div className='containerimag'>
                     <img className='imag' src={pokedex.sprites?.other.dream_world.front_default} alt="" />
-                    
+
                 </div>
-               
+
             </div>
         </li>
     );
