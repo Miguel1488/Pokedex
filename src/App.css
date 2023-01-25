@@ -1,8 +1,8 @@
 * {
   padding: 0;
-  text-align: center;
+  margin: 0;
   box-sizing: border-box;
-
+border: 1px solid #FFFFFF;
 }
 /*
 .loaging{background: #E62E23;
@@ -27,25 +27,9 @@
   line-height: 30px;
 }
 
-.input {
 
-  width: 622px;
-  height: 68px;
-  background: #FFFFFF;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  font-size: 23px;
 
-}
 
-.button-input {
-  position: absolute;
-  width: 209.21px;
-  height: 68px;
-  color: aliceblue;
-  border-radius: 3px;
-  cursor: pointer;
-  background: #D93F3F;
-}
 
 .contenedor-input {
   position: absolute;
@@ -59,21 +43,47 @@
 
 /*----------------------------------------------*/
 /* Pokemon card*/
+.Containergeneralpokedex{
+background: #b12506;
 
-.col {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
 }
 
+.ulpokedex{
+
+  height: auto;
+  display: flex;
+  flex-wrap: wrap ;
+  gap:20px;
+  padding: 30px;
+  justify-content: center;
+}
+
+/*
+---------------------------
+*/
+
 .card {
+  width: 250px;
+  height: 300px;
+  background: white;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   padding: 1em;
   margin-bottom: 20px;
   border-radius: 10px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
 }
 
+
+.imag{
+  width: 50%;
+  margin: 0 auto;
+  
+ 
+}
 
 /*---------pokedexDetail------- */
 .fondo {
@@ -136,12 +146,51 @@
   background-attachment: fixed;
 }
 
-.containerHeader {
-  background: red;
-  border-bottom: 30px solid #000;
+
+
+.containerInputgeneral{
+  background: #ffffff;
 }
 
 
+/*  inpuName */
+
+.containerInputName{
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+text-align: center;
+  width: 622px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  font-size: 23px;
+
+}
+.button-input {
+  width: 209.21px;
+  height: 68px;
+  color: aliceblue;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #D93F3F;
+}
+
+
+
+.contenedor-input{
+  background: red;
+  border-bottom: 30px solid #000;
+  width: 100vw;
+}
+
+
+/* ---------------*/
 
 .inputPokede{
   width: 622px;
@@ -166,4 +215,13 @@
     background: #fffffff8;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
     font-size: 23px;
+  }
+
+
+
+  .header2{
+    background: red;
+    border-bottom: 30px solid #000;
+    width: 100vw;
+
   }

@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import Header2 from './Header2';
 import PokemonCard from './PokemonCard';
 
 
@@ -107,8 +108,7 @@ const Pokedex = () => {
     return (
 
         <div>
-            <head className='header'> </head>
-            <h1>pokedex</h1>
+          <Header2/>
             <p>welcom {userName}!</p>
             <div>
                 <input className='inputPokede'
@@ -119,7 +119,7 @@ const Pokedex = () => {
                 />
                 <button className='butoonPokedex' onClick={search}>Search</button>
             </div>
-            <div>
+            <div className='Containergeneralpokedex'>
                 <select className='typepokedex' onChange={filterType} name="" id="">
                     {type.map(type => (
                         <option value={type.url} key={type.url}>{type.name}
@@ -131,7 +131,7 @@ const Pokedex = () => {
                 <button onClick={back}>regresar</button>
 
             </div>
-            <ul>
+            <ul className='ulpokedex'>
                 {
                     pagination.map(pokedex => (
                         <PokemonCard

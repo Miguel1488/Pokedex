@@ -9,6 +9,7 @@ import Loanging from './compones/Loanging'
 import './App.css'
 import { useState } from 'react'
 
+
 function App() {
 const[loading,setLoading]= useState(true);
 setTimeout (( ) => { 
