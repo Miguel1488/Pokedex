@@ -6,9 +6,9 @@ const Loanging = () => {
 //const [loading, setLoading] = useState(false)
 
     return (
-        <div className='loaging'>
-            <img  src={Fondo} alt="Loading..." />
-            <h1>..cargando pokedex</h1>
+        <div className='loading'>
+            <img className='picachu' src={Fondo} alt="Loading..." />
+            <h1 className='Dowload'>..cargando pokedex</h1>
         </div>
     );
 };

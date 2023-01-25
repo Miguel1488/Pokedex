@@ -107,10 +107,11 @@ const Pokedex = () => {
 
     return (
 
-        <div>
+        <div className='general1'>
           <Header2/>
-            <p>welcom {userName}!</p>
-            <div>
+            <div className='welcom'><p>¡Bienvenido {userName} aquí podras encontar tu pokemón favorito!</p></div>
+            
+            <div className='containerGeneral2'>
                 <input className='inputPokede'
                     type="text"
                     placeholder='search Pokemon'
@@ -120,15 +121,16 @@ const Pokedex = () => {
                 <button className='butoonPokedex' onClick={search}>Search</button>
             </div>
             <div className='Containergeneralpokedex'>
-                <select className='typepokedex' onChange={filterType} name="" id="">
+               <select className='typepokedex' onChange={filterType} name="" id="">
                     {type.map(type => (
                         <option value={type.url} key={type.url}>{type.name}
                         </option>
+                        
                     ))}
 
 
                 </select>
-                <button onClick={back}>regresar</button>
+                <div className='buttonback'><button onClick={back}>regresar</button></div>
 
             </div>
             <ul className='ulpokedex'>

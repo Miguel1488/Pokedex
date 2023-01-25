@@ -2,15 +2,34 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-border: 1px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
-/*
-.loaging{background: #E62E23;
+
+/* loading */
+
+.picachu {
+  align-items: center;
+  justify-content: center;
+}
+
+.Dowload {
+  text-align: center;
+  font-size: 3rem;
 
 }
-*/
-/* este es el home del input */
+
+
+/* home */
+
+.textPokedex {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .title {
+  text-align: center;
   color: #FE1936;
   font-family: 'Inter';
   font-style: normal;
@@ -27,36 +46,97 @@ border: 1px solid #FFFFFF;
   line-height: 30px;
 }
 
-
-
-
-
 .contenedor-input {
   position: absolute;
-  width: 1420px;
   height: 123.18px;
   top: 580px;
   background: #DD1A1A;
   border-bottom: 30px solid #000;
+  width: 100vw;
 }
 
 
-/*----------------------------------------------*/
+
 /* Pokemon card*/
-.Containergeneralpokedex{
-background: #b12506;
+
+.welcom {
+  color: #FE1936;
+  background: #000;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  padding: 0px;
+}
+
+.containerGeneral2{
+text-align: center;
+padding: 10px;
 
 }
 
-.ulpokedex{
+.inputPokede {
+  text-align: center;
+  width: 622px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  font-size: 23px;
+}
 
+
+.butoonPokedex {
+  position: absolute;
+  font-size: 20px;
+  width: 209.21px;
+  height: 68px;
+  color: aliceblue;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #D93F3F;
+}
+
+.Containergeneralpokedex{
+  background: #D93F3F;
+  border: 52px;
+  
+}
+.buttonback{
+align-items: center;
+text-align: center;
+justify-content: center;
+height: 52px;
+padding: 45px;
+}
+.general1{
+background: #7EC6C5;
+ 
+}
+
+
+.typepokedex {
+
+  width: 622px;
+  height: 68px;
+  background: #fffffff8;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  font-size: 23px;
+}
+
+
+.ulpokedex {
+  text-align: center;
+list-style: none;
   height: auto;
   display: flex;
-  flex-wrap: wrap ;
-  gap:20px;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 30px;
   justify-content: center;
 }
+
 
 /*
 ---------------------------
@@ -74,15 +154,15 @@ background: #b12506;
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+
 }
 
 
-.imag{
+.imag {
   width: 50%;
   margin: 0 auto;
-  
- 
+
+
 }
 
 /*---------pokedexDetail------- */
@@ -91,22 +171,21 @@ background: #b12506;
 }
 
 .containerDetail {
-
+  justify-items: center;
+align-items: center;
   position: absolute;
   width: 1116px;
-  height: 900px;
+  height: 980px;
   left: 162px;
   top: 220px;
   border-top: 160px solid #7EC6C5;
-
-  background: #FFFFFF;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
 }
 
 .id {
-
+text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -118,7 +197,7 @@ background: #b12506;
 }
 
 .titleDetail {
-
+text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -129,12 +208,22 @@ background: #b12506;
 
 }
 
+.imagcontainer{
+  width: 50%;
+  margin: 0 auto;
+}
+
 .imagDetail {
-  position: relative;
-  top: -3px;
+text-align: center;
 
 
+}
 
+.weigth{
+  font-size: 35px;
+  padding: 34px;
+  text-align: center;
+  
 }
 
 
@@ -148,14 +237,15 @@ background: #b12506;
 
 
 
-.containerInputgeneral{
+.containerInputgeneral {
   background: #ffffff;
+
 }
 
 
 /*  inpuName */
 
-.containerInputName{
+.containerInputName {
   width: 80%;
   height: 70px;
   margin: 0 auto;
@@ -164,7 +254,7 @@ background: #b12506;
 }
 
 .input {
-text-align: center;
+  text-align: center;
   width: 622px;
   height: 68px;
   background: #FFFFFF;
@@ -172,6 +262,7 @@ text-align: center;
   font-size: 23px;
 
 }
+
 .button-input {
   width: 209.21px;
   height: 68px;
@@ -179,49 +270,73 @@ text-align: center;
   border-radius: 3px;
   cursor: pointer;
   background: #D93F3F;
+ 
 }
 
 
 
-.contenedor-input{
-  background: red;
-  border-bottom: 30px solid #000;
-  width: 100vw;
-}
 
 
 /* ---------------*/
 
-.inputPokede{
-  width: 622px;
-  height: 68px;
-  background: #FFFFFF;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  font-size: 23px;
+
+
+
+
+
+
+
+.header2 {
+  background: red;
+  border-bottom: 30px solid #000;
+  width: 100vw;
+
 }
 
-.butoonPokedex{ position: absolute;
-  width: 209.21px;
-  height: 68px;
-  color: aliceblue;
-  border-radius: 3px;
-  cursor: pointer;
-  background: #D93F3F; }
-
-  .typepokedex{
-   
-    width: 622px;
-    height: 68px;
-    background: #fffffff8;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-    font-size: 23px;
-  }
+.butonprogres{
+text-align: center;
+justify-content: center;
+border-radius:50%;
 
 
 
-  .header2{
-    background: red;
-    border-bottom: 30px solid #000;
-    width: 100vw;
+}
 
-  }
+.butonback{
+background: #D93F3F;
+font-size: 2rem;
+padding: 15px;
+border-radius: 5px;
+
+}
+
+.butoninit{
+  font-size: 2rem;
+  padding: 15px;
+border-radius: 5px;
+}
+
+
+.containerbuttonFooter{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.pagination_numbers{
+  font-size: 30px;
+  background: #D93F3F;
+  color: #FFFFFF;
+}
+
+.btn-back{
+  font-size: 30px;
+  background: #D93F3F;
+  color: #FFFFFF;
+}
+
+.btn-next{
+  font-size: 30px;
+  background: #D93F3F;
+  color: #FFFFFF;
+}

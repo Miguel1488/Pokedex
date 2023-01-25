@@ -33,18 +33,20 @@ const PokedexDetail = () => {
         <div className='containerDetail'>
             <div className='id'>#<b>{pokemon.id}</b></div>
             <div className='titleDetail'><h1>{pokemon.name}</h1></div>
-            <div>{pokemon.weight}</div>
+            <div className='weigth'>Peso: {pokemon.weight}</div>
             <div className='imagDetail'>
-                <img src={pokemon.sprites?.other.dream_world.front_default} alt="" />
-                <div>{pokemon.stats?.[0].base_stat}</div>
-                <div>{pokemon.stats?.[1].base_stat}</div>
-                <div>{pokemon.stats?.[2].base_stat}</div>
-                <div>{pokemon.stats?.[5].base_stat}</div>
+               <div className='imagcontainer'> <img src={pokemon.sprites?.other.dream_world.front_default} alt="" /></div>
+                <div>HP:{pokemon.stats?.[0].base_stat}</div>
+                <div>ATAQUE: {pokemon.stats?.[1].base_stat}</div>
+                <div>DEFENSA :{pokemon.stats?.[2].base_stat}</div>
+                <div>VELOCIDAD: {pokemon.stats?.[5].base_stat}</div>
 
 
-            </div>
-            <button onClick={back}>regresar</button>
-             <button onClick={back1}>inicio</button>
+            </div >
+            <div className='butonprogres'>
+            <button className='butonback' onClick={back}>regresar</button>
+             <button className='butoninit' onClick={back1}>inicio</button>
+             </div>
         </div>
 
     );

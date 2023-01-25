@@ -19,13 +19,15 @@ const PokemonCard = ({ url }) => {
 
     return (
         <li className='col'>
-        <div className= 'card' onClick={() => navigate(`/pokedex/${pokedex.id}`)}>
-            
+            <div className='card' onClick={() => navigate(`/pokedex/${pokedex.id}`)}>
+
                 <b >{pokedex.name}</b>
                 <div className='containerimag'>
-                <img className='imag' src={pokedex.sprites?.other.dream_world.front_default} alt="" />
+                    <img className='imag' src={pokedex.sprites?.other.dream_world.front_default} alt="" />
+                    
                 </div>
-        </div>
+               
+            </div>
         </li>
     );
 };

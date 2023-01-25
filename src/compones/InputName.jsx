@@ -17,7 +17,7 @@ const InputName = () => {
 
     return (
         <div className='containerInputgeneral'>
-            <div><img src="./src/assets/imag/image 11.png" alt=""></img></div>
+            <div className='textPokedex'><img src="./src/assets/imag/image 11.png" alt=""></img></div>
             <h1 className='title'>¡Hola entrenador!</h1>
             <div className='phrase'><p>Para poder comenzar, dame tu nombre</p></div>
 
