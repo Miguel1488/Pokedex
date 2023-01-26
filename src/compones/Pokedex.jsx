@@ -131,7 +131,7 @@ const Pokedex = () => {
 
 
         </select>
-        <div className='buttonback'><button onClick={back}>regresar</button></div>
+      <button className='buttonback' onClick={back}><i className= 'chevron bx bxs-chevron-left-circle'></i></button>
 
       </div>
       <ul className='ulpokedex'>

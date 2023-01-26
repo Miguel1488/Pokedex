@@ -36,20 +36,38 @@ const PokedexDetail = () => {
             <div className='weigth'>Peso: {pokemon.weight}</div>
             <div className='imagDetail'>
                 <div className='imagcontainer'> <img src={pokemon.sprites?.other.dream_world.front_default} alt="" /></div>
+
                 <div className='container_progreso'>
                     <h2>HP: {pokemon.stats?.[0].base_stat}</h2>
                     <div className="barra">
-                        <div className={"progreso"} style={{ width: `${pokemon.stats?.[0].base_stat}%`}} >
+                        <div className={"progreso"} style={{ width: `${pokemon.stats?.[0].base_stat}%` }} >
+                        </div>
+
+                        <h2>ATAQUE: {pokemon.stats?.[1].base_stat}</h2>
+                        <div className="barra">
+                            <div className={"progreso"} style={{ width: `${pokemon.stats?.[1].base_stat}%` }} >
+                            </div>
+                        </div>
+
+                        <h2>DEFENSA: {pokemon.stats?.[1].base_stat}</h2>
+                        <div className="barra">
+                            <div className={"progreso"} style={{ width: `${pokemon.stats?.[2].base_stat}%` }} >
+                            </div>
+                        </div>
+
+
+                        <h2>VELOCIDAD: {pokemon.stats?.[5].base_stat}</h2>
+                        <div className="barra">
+                            <div className={"progreso"} style={{ width: `${pokemon.stats?.[5].base_stat}%` }} >
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div>ATAQUE: {pokemon.stats?.[1].base_stat}</div>
-                <div>DEFENSA :{pokemon.stats?.[2].base_stat}</div>
-                <div>VELOCIDAD: {pokemon.stats?.[5].base_stat}</div>
-
-
+              
             </div >
+
+
             <div className='butonprogres'>
                 <button className='butonback' onClick={back}>regresar</button>
                 <button className='butoninit' onClick={back1}>inicio</button>

@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid #FFFFFF;
+
 }
 
 /* loading */
@@ -70,13 +70,12 @@
 /* Pokemon card*/
 
 .welcom {
-  color: #FE1936;
-  background: #000;
+  color: #ffffff;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 00;
+  font-size: 40px;
   line-height: 61px;
   padding: 0px;
 }
@@ -119,13 +118,7 @@
 
 }
 
-.buttonback {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  height: 52px;
-  padding: 45px;
-}
+
 
 
 .typepokedex {
@@ -176,6 +169,16 @@
 
 
 }
+.fighting{
+  background-color: #84086b;
+}
+.poison{
+  background-color: #7a4e71;
+}
+
+.rock{
+  background-color: #8d9cc1;
+}
 
 
 .grass {
@@ -190,23 +193,48 @@
   background-color: #1e8cc8;
 }
 
+.ghost{
+  background-color: #aec81e;
+}
+
+.electric{
+  background-color: #120c7e;
+}
+
+.ice{
+  background-color: #73e0e3;
+}
 
 
+.dragon{
+  background-color: #e30a0a; 
+}
+.dark{
+  background-color: #323522;
+}
+.fairy{
+  background-color: #04a2f7;
+}
+.psychic{
+  background-color: #48f0f0;
+}
+
+.steel{
+  background-color: #984591;
+}
 
 /*---------pokedexDetail------- */
-.fondo {
-  background-image: url(./assets/imag/fondo.png);
-}
+
 
 .containerDetail {
   justify-items: center;
   align-items: center;
   position: absolute;
   width: 1116px;
-  height: 980px;
+  margin-top: -15rem;
   left: 162px;
   top: 220px;
-  border-top: 160px solid #7EC6C5;
+  border-top: 160px solid #D93F3F;
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
@@ -237,7 +265,7 @@
 }
 
 .imagcontainer {
-  width: 50%;
+
   margin: 0 auto;
 }
 
@@ -264,20 +292,24 @@
 .barra {
   width: 350px;
   height: 20px;
-  background: #000;
+  background: rgb(201, 29, 29);
   border-radius: 10px;
 }
 
+
+
 .progreso {
- 
+
   height: 100%;
-  background-color: #1e8cc8;
+  background-color: #0b0c0c;
   border-radius: 10px;
 }
+
+
 
 /*-----------------*/
 .App {
-  background-image: url(./assets/imag/fondo2.png);
+  background-image: url(./assets/imag/4872553.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -334,26 +366,23 @@
 
 
 
-.header2 {
-  background: red;
-  border-bottom: 30px solid #000;
-  width: 100vw;
-
-}
 
 .butonprogres {
   text-align: center;
   justify-content: center;
   border-radius: 50%;
-
+  height: 290px;
+  margin-top: 10rem;
 
 
 }
 
 .butonback {
   background: #D93F3F;
+
   font-size: 2rem;
   padding: 15px;
+
   border-radius: 5px;
 
 }
@@ -367,8 +396,9 @@
 
 .containerbuttonFooter {
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin-top: -40px;
+
+  
 
 }
 
@@ -388,4 +418,12 @@
   font-size: 30px;
   background: #D93F3F;
   color: #FFFFFF;
+}
+
+
+
+.chevron {
+padding: 9px;
+  font-size: 30px;
+  color: #ff3d07;
 }
